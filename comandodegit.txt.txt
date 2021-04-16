@@ -1,5 +1,0 @@
-git add .
-git commit -m "el mensaje del comit"
-git push
-nota: comando git clone se utiliza una unica vez por cada repositorio en una maquina, mas haya de que lo puedo utilizar mas veces 
-nota: comando status se ejecuta las veces que uno quiera y cuando uno quiera
