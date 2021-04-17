@@ -1,4 +1,4 @@
-<<?php 
+<?php 
 $edad=15;
 if(edad<=15)
 {
