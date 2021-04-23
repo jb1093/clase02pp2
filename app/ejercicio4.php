@@ -7,16 +7,24 @@
 	echo "Segundo numero seleccionado $SegundoNumero <br>";
 	echo "Tercer numero seleccionado $TercerNumero <br>";
 
-	if ($PrimerNumero>$SegundoNumero && $PrimerNumero>$TercerNumero) {
+	if ($PrimerNumero>$SegundoNumero && $PrimerNumero>$TercerNumero) 
+	{
 
 		echo "El mayor numero es: $PrimerNumero";
 	
-	}elseif ($SegundoNumero>$TercerNumero) {
+	}
+	else 
+	{
+		if ($SegundoNumero>$TercerNumero) 
+		{
 		
-		echo "El mayor numero es: $SegundoNumero";
-	}else{
+			echo "El mayor numero es: $SegundoNumero";
+		}
+		else
+		{
 
-		echo "El mayor numero es: $TercerNumero";
+			echo "El mayor numero es: $TercerNumero";
+		}
 	}
 
 
