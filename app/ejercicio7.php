@@ -7,16 +7,15 @@
 
 	if($num1!=$num2 && $num2!=$num3 && $num1!=$num3){
 
-	}else{
-
-	}if($num1<$num2 && $num2<$num3){
-		echo "medio= ". $num2;
-	} else{
-		if($num1<$num3){
+		if(($num1<$num2 && $num1>$num3)|| ($num1>$num2 && $num1<$num3)) {
 			echo "medio= ". $num1;
-		} else{
-			echo "medio=" . $num3;
-		} 
+			} else{
+				if(($num2>$num1 && $num2<$num3)||($num2<$num1 && $num2>$num3)){
+					echo "medio= ". $num2;
+			} else{
+					echo "medio=" . $num3;
+			} 
+		}
 	} else {
 		echo "No hay medio";
 	}
@@ -27,3 +26,6 @@
 
 
 ?>
+
+
+
