@@ -81,6 +81,14 @@ echo "<br><br>Numero1= $nro1 <br>Numero2= $nro2 <br>Operacion= $operador <br>";
 calcular ($nro1, $operador, $nro2);
 
 $nro1=rand(0,100);
+$nro2=0;
+$operador="/";
+
+echo "<br><br>Numero1= $nro1 <br>Numero2= $nro2 <br>Operacion= $operador <br>";
+
+calcular ($nro1, $operador, $nro2);
+
+$nro1=rand(0,100);
 $nro2=rand(0,100);
 $operador="&";
 
